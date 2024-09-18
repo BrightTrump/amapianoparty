@@ -1,0 +1,533 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+  max-height: auto;
+}
+
+.nav-get-tickets {
+  color: orangered;
+}
+
+.overlay-begin {
+  display: flex;
+}
+
+.bg-img {
+  margin-bottom: 20px;
+  height: 40rem;
+}
+
+.tel-num {
+  color: whitesmoke;
+}
+
+.tel-num:hover {
+  color: white;
+}
+
+.banner_text {
+  height: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overview {
+  font-size: 1.8em;
+  font-weight: 700;
+  /* padding: 10px; */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.overview-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-upper {
+  font-size: 80px;
+}
+
+.tm-white {
+  font-size: 30px;
+}
+
+.banner_bg {
+  width: 60rem;
+}
+.banner_part .banner_text {
+  display: table;
+  width: 100%;
+  height: 900px;
+}
+
+.banner_part .banner_text .banner_text_iner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner_part .banner_text h3 {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.banner_part .banner_text h2 {
+  font-size: 100px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  line-height: 90px;
+  /* text-transform: uppercase; */
+}
+
+.socialInfo a {
+  color: #fff;
+}
+
+/* GALLERY SECTION */
+#recent-works {
+  padding-bottom: 70px;
+  background: #f3f3f3;
+}
+
+.center h2 {
+  font-family: "Aclonica", sans-serif;
+  font-size: 55px;
+  color: #ce4804;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.lead {
+  /*font-family: 'Atkinson Hyperlegible', sans-serif;*/
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.lead2 {
+  font-size: 18px;
+  color: #ff4910 !important;
+}
+
+img.gallery_img {
+  width: fit-content;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+  .lead {
+    /* font-size: 50px; */
+    padding: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .lead {
+    font-size: 16px;
+  }
+}
+/* GALLERY SECTION ENDS */
+
+/*  VENDOR PAGE  */
+.breadcrumb {
+  margin-bottom: 0px !important;
+}
+
+.breadcrumb_bg {
+  background-image: url("../images/img2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.breadcrumb {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.breadcrumb .breadcrumb_iner {
+  height: 425px;
+  width: 100%;
+  display: table;
+}
+
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 75px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item p {
+  font-size: 15px;
+  color: #fff;
+}
+
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
+  margin: 0px 5px;
+  font-size: 12px;
+}
+
+/* VENDOR PAGE TIPS SECTION */
+section#tips {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+#tips .fa {
+  color: orangered;
+  font-size: 60px;
+}
+
+#tips h3 {
+  font-size: 20px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+div.pay a.btn-slide {
+  padding: 8px 20px;
+  background: orangered;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 25px;
+  display: inline-block;
+  border: 1px solid #f87e2a;
+  /*font-size: 1.5em;*/
+}
+
+/* VENDOR PAGE TIPS SECTION ENDS */
+
+@media only screen and (max-width: 750px) {
+  .text-upper {
+    font-size: 72px;
+  }
+
+  .banner_bg {
+    visibility: hidden;
+  }
+
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+    font-size: 40px;
+  }
+}
+/*  VENDOR PAGE ENDS  */
+
+/* VIDEO STYLING */
+/* Style the video: 100% width and height to cover the entire window */
+.hero-video {
+  margin-top: 20px;
+  position: relative;
+  max-width: 100%;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  bottom: 6px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  display: none;
+  transition: all 0.4s;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+@media only screen and (max-width: 750px) {
+  #contact {
+    background-image: url("../images/founder.jpg");
+  }
+}
+
+div.terms:not(h2) {
+  text-align: left;
+}
+
+div.terms {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.sideimg{
+    width: 80%;
+    margin: auto;
+}
+
+.hero-content-wrapper {
+  padding-top: 150px;
+  /*padding-bottom: 290px;*/
+}
+
+.hero-section .hero-content-wrapper h2 {
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 50px;
+    color: orangered;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.hero-section .hero-content-wrapper h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 65px;
+  color: #051441;
+  margin-bottom: 25px;
+}
+
+.hero-section .hero-content-wrapper p {
+    font-size: 4rem;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .hero-content-wrapper {
+    padding-top: 130px;
+    padding-bottom: 230px;
+  }
+}
+
+.qodef-separator-holder {
+  position: relative;
+  height: auto;
+  font-size: 0;
+  /* line-height: 1em; */
+}
+
+.qodef-separator-holder.qodef-separator-left {
+  text-align: left;
+}
+
+.qodef-custom-font-holder {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+  /* color: rgb(255, 255, 255); */
+  background-size: cover;
+}
+
+@media only screen and (min-width: 1024px) {
+  .det * {
+    text-align: left !important;
+    line-height: 1 !important;
+  }
+}
+
+.wpb_content_element {
+  margin-top: 20px;
+  background-size: cover;
+  padding: 0px !important; 
+  margin-bottom: 40px !important;
+}
+
+.fa-buy-btn {
+  margin: 30px 0 0;
+  line-height: 2 !important;
+  padding: 10px 40px 10px 40px;
+}
+
+.fa-buy-btn:hover .fa-buy {
+  color: orangered !important;
+}
+
+.fa-buy {
+  background: none !important;
+  width: fit-content !important;
+  height: initial !important;
+  margin-right: 0 !important;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.next-ama {
+  text-align: left;
+  display: block;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .amat {
+    width: 100% !important;
+    margin-top: 30px;
+  }
+  .amat-img {
+    width: 45% !important;
+  }
+  .sideimg{
+    /*display: none;*/
+  }
+}
+
+#myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 768px) {
+  .modal-content {
+    width: 100%;
+  }
+  .hero-section .hero-content-wrapper h2{
+      font-size: 5rem;
+  }
+  .hero-section .hero-content-wrapper p{
+      font-size: 2.2rem;
+  }
+  #home{
+      height: 90vh;
+  }
+}
+
+.next-ra{
+    border-bottom: 1px solid #ccc;
+}
+
+.flip-clock-wrapper ul {
+  width: 53px !important;
+}
